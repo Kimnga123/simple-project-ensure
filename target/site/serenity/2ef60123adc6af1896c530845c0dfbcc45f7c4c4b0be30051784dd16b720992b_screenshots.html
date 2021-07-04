@@ -1,0 +1,259 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script><!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle"></span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="82c553face1a6557a02afd9704c7e316dca825ddb5a1b146f472af3e7beec519.html">Demo</a></span>
+                > <span class="truncate-60"><a
+                    href="2ef60123adc6af1896c530845c0dfbcc45f7c4c4b0be30051784dd16b720992b.html">I want login success to page guru99 </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 04-07-2021 12:58</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Demo </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">I want login success to page guru99
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="03add0de6ea8093c220ef2ee2dd4acb0952b25234328e0432e173a42722c635d.png" title=" Given I login into system with info
+| email |
+| kimnga@gmail.com |" width="1034"/>
+                <img src="03add0de6ea8093c220ef2ee2dd4acb0952b25234328e0432e173a42722c635d.png" title=" Nga enters 'kimnga@gmail.com' into GuruPage.IP_EMAIL" width="1034"/>
+                <img src="044113dcd77361886ba3bbdcc527fd0588d9c3cacc25f9a85f744054ca516597.png" title=" Nga enters 'kimnga@gmail.com' into GuruPage.IP_EMAIL (completed)" width="1034"/>
+                <img src="044113dcd77361886ba3bbdcc527fd0588d9c3cacc25f9a85f744054ca516597.png" title=" Nga clicks on GuruPage.BT_SUBMIT" width="1034"/>
+                <img src="98ee0b8ef1701e4d46efd5c8e2bee14c4d76132a241ac1390d023b6e6a6c5cb9.png" title=" Nga clicks on GuruPage.BT_SUBMIT (completed)" width="1034"/>
+                <img src="98ee0b8ef1701e4d46efd5c8e2bee14c4d76132a241ac1390d023b6e6a6c5cb9.png" title=" Given I login into system with info
+| email |
+| kimnga@gmail.com | (completed)" width="1034"/>
+                <img src="df27f149bb57089479c829e55ee1048100243ad3d7d8064dd8fcf4642c7b7448.png" title=" And I login to page with info
+| userID | pass |
+| ngantk | 123456 |" width="1034"/>
+                <img src="df27f149bb57089479c829e55ee1048100243ad3d7d8064dd8fcf4642c7b7448.png" title=" Nga login guru" width="1034"/>
+                <img src="df27f149bb57089479c829e55ee1048100243ad3d7d8064dd8fcf4642c7b7448.png" title=" Nga enters 'mngr339251' into GuruPage.IP_USERID" width="1034"/>
+                <img src="fd6be0604fa82cd188ea0ac3f1647096d872ed2487a502d672eceeca011374ed.png" title=" Nga enters 'mngr339251' into GuruPage.IP_USERID (completed)" width="1034"/>
+                <img src="fd6be0604fa82cd188ea0ac3f1647096d872ed2487a502d672eceeca011374ed.png" title=" Nga enters 'Ahysyhe' into GuruPage.IP_PASS" width="1034"/>
+                <img src="cde459a6a13573e84cb98aad44df0175f1ab741d50e8d7540a9b302797ab790b.png" title=" Nga enters 'Ahysyhe' into GuruPage.IP_PASS (completed)" width="1034"/>
+                <img src="cde459a6a13573e84cb98aad44df0175f1ab741d50e8d7540a9b302797ab790b.png" title=" Nga clicks on GuruPage.BT_LOGIN" width="1034"/>
+                <img src="253d7acd5c783bcaf9975365efad25f65952dac5ef278effa7067ccaacb3bdbc.png" title=" Nga clicks on GuruPage.BT_LOGIN (completed)" width="1034"/>
+                <img src="253d7acd5c783bcaf9975365efad25f65952dac5ef278effa7067ccaacb3bdbc.png" title=" Nga login guru (completed)" width="1034"/>
+                <img src="253d7acd5c783bcaf9975365efad25f65952dac5ef278effa7067ccaacb3bdbc.png" title=" And I login to page with info
+| userID | pass |
+| ngantk | 123456 | (completed)" width="1034"/>
+                <img src="7ae541ac8ccf7b29ed4729ac7b5ab71caf52c8d26a478380e9740488ce716955.png" title=" When I create a New Customer with info
+| Customer Name | Date of Birth | Address | City | State | PIN | Mobile Number | E-mail | Password |
+| Kim Nga | 03/25/1997 | Dan Phuong | Ha Noi | abczyx | 123456 | 0123456789 | kimnga@gmail | 1234567 |" width="1034"/>
+                <img src="7ae541ac8ccf7b29ed4729ac7b5ab71caf52c8d26a478380e9740488ce716955.png" title=" Nga clicks on NewCustomerPage.BT_NEW_CUSTOMER" width="1034"/>
+                <img src="7ae541ac8ccf7b29ed4729ac7b5ab71caf52c8d26a478380e9740488ce716955.png" title=" Nga new customer" width="1034"/>
+                <img src="2224d0d429652b0fe09af79dbc532f7f11e67e2922a598eb96680280eca30034.png" title=" Nga enters 'Kim Nga' into NewCustomerPage.IP_NAME" width="1034"/>
+                <img src="0037bfd5bf9e68e1649c03e60ab5038a2edd7d5efb9803a03e2f09b439fd4912.png" title=" Nga enters 'Kim Nga' into NewCustomerPage.IP_NAME (completed)" width="1034"/>
+                <img src="0037bfd5bf9e68e1649c03e60ab5038a2edd7d5efb9803a03e2f09b439fd4912.png" title=" Nga enters 'Dan Phuong' into NewCustomerPage.IP_ADDRESS" width="1034"/>
+                <img src="47a8683f5e104a75e2241f58ab690642a0e899737767d9705a10735e9f8f8c09.png" title=" Nga enters 'Dan Phuong' into NewCustomerPage.IP_ADDRESS (completed)" width="1034"/>
+                <img src="47a8683f5e104a75e2241f58ab690642a0e899737767d9705a10735e9f8f8c09.png" title=" Nga enters 'Ha Noi' into NewCustomerPage.IP_CITY" width="1034"/>
+                <img src="0c62a9d873b5c030f5c6e8c0e5d4a8732af3c0f23523002db5bbfc7eae6f3f2e.png" title=" Nga enters 'Ha Noi' into NewCustomerPage.IP_CITY (completed)" width="1034"/>
+                <img src="0c62a9d873b5c030f5c6e8c0e5d4a8732af3c0f23523002db5bbfc7eae6f3f2e.png" title=" Nga enters 'abczyx' into NewCustomerPage.IP_STATE" width="1034"/>
+                <img src="b6f0d043bd100ab0fe0e3f16c9533862f43667470e1e77055576ab75615f973e.png" title=" Nga enters 'abczyx' into NewCustomerPage.IP_STATE (completed)" width="1034"/>
+                <img src="b6f0d043bd100ab0fe0e3f16c9533862f43667470e1e77055576ab75615f973e.png" title=" Nga enters '0123456789' into NewCustomerPage.IP_PHONE" width="1034"/>
+                <img src="4e69f1f7ea1d124949087cc63f7ce0f39ebc77971422415e1ce526c0f8314cde.png" title=" Nga enters '0123456789' into NewCustomerPage.IP_PHONE (completed)" width="1034"/>
+                <img src="4e69f1f7ea1d124949087cc63f7ce0f39ebc77971422415e1ce526c0f8314cde.png" title=" Nga enters 'bEXCCmPg@gmail.com' into NewCustomerPage.IP_EMAIL" width="1034"/>
+                <img src="8aac8395be7646c841c02005a4f9be5f345dd6630ae2cd4e7e76677d4a2dac73.png" title=" Nga enters 'bEXCCmPg@gmail.com' into NewCustomerPage.IP_EMAIL (completed)" width="1034"/>
+                <img src="8aac8395be7646c841c02005a4f9be5f345dd6630ae2cd4e7e76677d4a2dac73.png" title=" Nga enters '123456' into NewCustomerPage.IP_PIN" width="1034"/>
+                <img src="ffbc06705b339395622297a9c33a1271b559fc5e7cdaf938684e4b60a29d68c8.png" title=" Nga enters '123456' into NewCustomerPage.IP_PIN (completed)" width="1034"/>
+                <img src="ffbc06705b339395622297a9c33a1271b559fc5e7cdaf938684e4b60a29d68c8.png" title=" Nga enters '1234567' into NewCustomerPage.IP_PASS" width="1034"/>
+                <img src="e53f9c2875911281d86f9978928fcc0b60f0258cc93e740afddbfcdc0a16f344.png" title=" Nga enters '1234567' into NewCustomerPage.IP_PASS (completed)" width="1034"/>
+                <img src="e53f9c2875911281d86f9978928fcc0b60f0258cc93e740afddbfcdc0a16f344.png" title=" Nga clicks on NewCustomerPage.BT_SUB" width="1034"/>
+                <img src="244cbd2efe41564e4ca83d7b6c2c5a5501fe74605224c20bd0889a421f16b98a.png" title=" Nga clicks on NewCustomerPage.BT_SUB (completed)" width="1034"/>
+                <img src="244cbd2efe41564e4ca83d7b6c2c5a5501fe74605224c20bd0889a421f16b98a.png" title=" Nga new customer (completed)" width="1034"/>
+                <img src="244cbd2efe41564e4ca83d7b6c2c5a5501fe74605224c20bd0889a421f16b98a.png" title=" When I create a New Customer with info
+| Customer Name | Date of Birth | Address | City | State | PIN | Mobile Number | E-mail | Password |
+| Kim Nga | 03/25/1997 | Dan Phuong | Ha Noi | abczyx | 123456 | 0123456789 | kimnga@gmail | 1234567 | (completed)" width="1034"/>
+                <img src="244cbd2efe41564e4ca83d7b6c2c5a5501fe74605224c20bd0889a421f16b98a.png" title=" Then I see the account creation is successful and showing with info
+| Customer Name | Birthdate | Address | City | State | Pin | Mobile No. | Email |
+| Kim Nga | 1997-03-25 | Dan Phuong | Ha Noi | abczyx | 123456 | 0123456789 | kimnga@gmail |" width="1034"/>
+                <img src="244cbd2efe41564e4ca83d7b6c2c5a5501fe74605224c20bd0889a421f16b98a.png" title=" Nga check add customer success" width="1034"/>
+                <img src="244cbd2efe41564e4ca83d7b6c2c5a5501fe74605224c20bd0889a421f16b98a.png" title=" Then I see the account creation is successful and showing with info
+| Customer Name | Birthdate | Address | City | State | Pin | Mobile No. | Email |
+| Kim Nga | 1997-03-25 | Dan Phuong | Ha Noi | abczyx | 123456 | 0123456789 | kimnga@gmail | (completed): <span class='success-color'>SUCCESS</span>" width="1034"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.64</span>
+</div>
+</body>
+</html>

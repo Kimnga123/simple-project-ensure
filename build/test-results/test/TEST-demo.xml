@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="demo" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-04T05:58:22" hostname="DESKTOP-VH7RL5L" time="35.558">
+  <properties/>
+  <testcase name="I want login success to page guru99" classname="demo" time="35.558"/>
+  <system-out><![CDATA[?[32m.?[0m?[32m.?[0m?[32m.?[0m?[32m.?[0m]]></system-out>
+  <system-err><![CDATA[Jul 04, 2021 12:58:23 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73) on port 18203
+Only local connections are allowed.
+Jul 04, 2021 12:58:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+</testsuite>
